@@ -62,32 +62,6 @@ When you first visit the application:
 - `Ctrl+N` or `Cmd+N`: Create new memo
 - `Escape`: Cancel edit mode or close modals
 
-## File Structure
-
-```
-memo-notepad/
-├── api/
-│   ├── api.php          # REST API endpoints
-│   └── download.php     # Database download
-├── assets/
-│   ├── css/
-│   │   └── style.css    # Main stylesheet
-│   └── js/
-│       └── app.js       # Frontend JavaScript
-├── config/
-│   └── Database.php     # Database configuration
-├── models/
-│   ├── User.php         # User model
-│   └── Memo.php         # Memo model
-├── data/                # SQLite database storage
-├── auth.php             # Authentication handler
-├── index.php            # Main application
-├── login.php            # Login page
-├── logout.php           # Logout handler
-├── .htaccess            # Apache configuration
-└── README.md            # This file
-```
-
 ## API Endpoints
 
 - `GET /api/memos` - Get all user memos
