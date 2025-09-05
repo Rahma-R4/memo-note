@@ -1,0 +1,52 @@
+{
+  "changelog": [
+    {
+      "version": "1.2.0",
+      "date": "2025-08-27",
+      "type": "feature",
+      "title": "Persistent Timezone Storage",
+      "changes": [
+        "Added timezone column to database users table",
+        "Timezone preferences now saved permanently per user",
+        "Auto-load user timezone on login from any browser/device",
+        "Default timezone set to Asia/Makassar for new users",
+        "No more need to set timezone after every login"
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "date": "2025-08-27",
+      "type": "feature",
+      "title": "Toast Notifications & UI Improvements",
+      "changes": [
+        "Added login and logout toast notifications",
+        "Moved all toast notifications from top-right to bottom-right",
+        "Fixed timezone conversion issues in memo timestamps",
+        "Database now stores timestamps in user's selected timezone",
+        "Improved memo sidebar with 3-line format (Title, Created, Updated)",
+        "Enhanced responsive sidebar toggle behavior"
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2025-08-26",
+      "type": "release",
+      "title": "Initial Release",
+      "changes": [
+        "Complete memo notepad application with SQLite3 database",
+        "Secret key authentication system",
+        "Create, read, update, delete memos functionality",
+        "Search memos by title and content",
+        "Dark theme with FontAwesome icons",
+        "Responsive design with collapsible sidebar",
+        "Auto-save feature for memo editing",
+        "Settings page with security key management",
+        "Database backup download functionality",
+        "Timezone selection with multiple options",
+        "Pretty URLs with .htaccess configuration",
+        "Security headers and database protection",
+        "Modern UI with toast notifications and modals"
+      ]
+    }
+  ]
+}
